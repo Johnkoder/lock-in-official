@@ -1,0 +1,32 @@
+# Local assistant and editor artifacts
+/.codex/
+/.codex-remote-attachments/
+/.idea/
+/.vscode/
+
+# Secrets, signing material, and machine configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+local.properties
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+*-credentials.json
+
+# Generated and development artifacts
+build/
+*.log
+*.aab
+*.idsig
+*.apk
+!releases/
+!releases/*-release.apk
+*debug*.apk
