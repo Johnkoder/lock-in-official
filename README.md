@@ -4,14 +4,14 @@ Lock In is a cozy, local-first Pomodoro productivity app with Timelapse Studio.
 
 ## Latest release
 
-**Lock In 1.2.2 (build 27)**
+**Lock In 1.2.3 (build 28)**
 
-[Download the Android release APK](releases/lock-in-android-v1.2.2-build27-release.apk)
+[Download the Android release APK](https://github.com/Johnkoder/lock-in-official/releases/latest)
 
 - Package: `app.lockin.mobile`
 - Build type: production release
-- APK size: 103,588,144 bytes
-- SHA-256: `83314f4f89ecfe0bc9f6f6bd1a4f06a5bec4d7bed5e302a1a13256b28f7088c3`
+- APK size: 104,538,568 bytes
+- SHA-256: `0ad948c191d0adfa6f3d46113510f086da12324f8d3e34113a044502229c24d3`
 
 ### What’s new
 
@@ -26,9 +26,11 @@ Lock In is a cozy, local-first Pomodoro productivity app with Timelapse Studio.
 - Allows completed character animations to replay on tap while preventing
   repeated taps from interrupting playback.
 - Restarts companion animations naturally when returning to their tab.
+- Adds offline Backup data and Restore data in Settings with versioned full-state
+  backups, validation, and replacement restore semantics.
 
 The APK is release-signed, non-debuggable, 16 KB aligned, and checked for accidental
 credentials, private paths, signing files, and local development artifacts.
 
 You can independently verify the download with the accompanying
-[SHA-256 checksum file](releases/lock-in-android-v1.2.2-build27-release.apk.sha256).
+[SHA-256 checksum file](releases/lock-in-android-v1.2.3-build28-release.apk.sha256).
