@@ -4,33 +4,22 @@ Lock In is a cozy, local-first Pomodoro productivity app with Timelapse Studio.
 
 ## Latest release
 
-**Lock In 1.2.3 (build 28)**
+**Lock In 1.3.0 (build 29)**
 
-[Download the Android release APK](https://github.com/Johnkoder/lock-in-official/releases/latest)
+[Download the Android release](https://github.com/Johnkoder/lock-in-official/releases/tag/v1.3.0) · [Direct APK download](https://github.com/Johnkoder/lock-in-official/releases/download/v1.3.0/lock-in-android-v1.3.0-build29-release.apk)
 
 - Package: `app.lockin.mobile`
 - Build type: production release
-- APK size: 104,538,568 bytes
-- SHA-256: `0ad948c191d0adfa6f3d46113510f086da12324f8d3e34113a044502229c24d3`
+- APK size: 104,555,344 bytes
+- SHA-256: `2f5b0b8809a3ea58225ab78bac0d90f9e65629bbe6c2ce7f574e6082fea5f120`
+- [SHA-256 checksum file](https://github.com/Johnkoder/lock-in-official/releases/download/v1.3.0/lock-in-android-v1.3.0-build29-release.apk.sha256)
 
 ### What’s new
 
-- Adds an alternate Current Rank view to the Focus screen while preserving the
-  original timer view and behavior.
-- Adds responsive, transparent animations for every rank from R1 through R10.
-- Adds a complete in-app rank guide with XP rewards, thresholds, and seasonal
-  reset rules.
-- Updates the rank ladder with concise character-matching titles.
-- Integrates animated Chrono-chan artwork across Focus, active sessions, Tasks,
-  and Timelapse.
-- Allows completed character animations to replay on tap while preventing
-  repeated taps from interrupting playback.
-- Restarts companion animations naturally when returning to their tab.
-- Adds offline Backup data and Restore data in Settings with versioned full-state
-  backups, validation, and replacement restore semantics.
+- Adds a monthly focus activity graph to Profile.
+- Adds offline Backup data and Restore data in Settings with versioned full-state backups, validation, and replacement restore semantics.
 
 The APK is release-signed, non-debuggable, 16 KB aligned, and checked for accidental
 credentials, private paths, signing files, and local development artifacts.
 
-You can independently verify the download with the accompanying
-[SHA-256 checksum file](releases/lock-in-android-v1.2.3-build28-release.apk.sha256).
+Previous releases, including [Lock In v1.2.3](https://github.com/Johnkoder/lock-in-official/releases/tag/v1.2.3), remain available.
