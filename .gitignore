@@ -27,6 +27,6 @@ build/
 *.aab
 *.idsig
 *.apk
-!releases/
-!releases/*-release.apk
 *debug*.apk
+
+# Distribution binaries belong in GitHub Releases, not Git history.
